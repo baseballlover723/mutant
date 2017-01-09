@@ -172,7 +172,6 @@ Mutant::Meta::Example.add :send do
   mutation 'self == bar'
   mutation 'foo == nil'
   mutation 'foo == self'
-  mutation 'foo.eql?(bar)'
   mutation 'foo.equal?(bar)'
 end
 
